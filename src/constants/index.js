@@ -29,6 +29,14 @@ import {
     dagshub
 } from "../assets/icons";
 
+// Certificates images
+import cert_ml_2 from "../assets/certificate/ml_2.png";
+import cert_ml_1 from "../assets/certificate/ml_1.png";
+import cert_ml_python from "../assets/certificate/ml_python.png";
+import cert_data_1 from "../assets/certificate/data_1.png";
+import cert_data_2 from "../assets/certificate/data_2.png";
+import cert_cl_1 from "../assets/certificate/cl_1.png";
+
 export const skills = [
     {
         imageUrl: python,
@@ -244,3 +252,54 @@ export const projects = [
         link: 'https://github.com/Aldoreni45/mlops_end_to_end_emotion_rec',
     }
 ];
+
+export const certificates = [
+    {
+      imageUrl: cert_ml_2,
+      title: "Advanced Learning Algorithms",
+      issuer: "Stanford University",
+      year: "2024",
+      verifyId: "L3WPQHO6IV2G",
+      verifyUrl: "https://www.coursera.org/account/accomplishments/verify/L3WPQHO6IV2G"
+    },
+    {
+      imageUrl: cert_ml_1,
+      title: "",
+      issuer: "Stanford University",
+      year: "2024",
+      verifyId: "R0581TFUAMHM",
+      verifyUrl: "https://www.coursera.org/account/accomplishments/verify/R0581TFUAMHM"
+    },
+    {
+      imageUrl: cert_ml_python,
+      title: "",
+      issuer: "IBM",
+      year: "2024",
+      verifyId: "SVYGNTV8RL5N",
+      verifyUrl: "https://www.coursera.org/account/accomplishments/verify/SVYGNTV8RL5N"
+    },
+    {
+      imageUrl: cert_data_1,
+      title: "",
+      issuer: "Google",
+      year: "2024",
+      verifyId: "CR6EM61YG79C",
+      verifyUrl: "https://www.coursera.org/account/accomplishments/verify/CR6EM61YG79C"
+    },
+    {
+      imageUrl: cert_data_2,
+      title: "",
+      issuer: "Google",
+      year: "2024",
+      verifyId: "B45E3KBYWJ13",
+      verifyUrl: "https://www.coursera.org/account/accomplishments/verify/B45E3KBYWJ13"
+    },
+    {
+      imageUrl: cert_cl_1,
+      title: "",
+      issuer: "Red Hat",
+      year: "2024",
+      verifyId: "B0I1KXFTXGIC",
+      verifyUrl: "https://www.coursera.org/account/accomplishments/verify/B0I1KXFTXGIC"
+    }
+  ];

@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import { logo } from "../assets/images";
 
 const Navbar = () => {
+  const resumeUrl = import.meta.env.VITE_RESUME_URL || "/resume.pdf";
   return (
     <header className='header'>
       <NavLink to='/'>
@@ -15,6 +16,12 @@ const Navbar = () => {
         <NavLink to='/projects' className={({ isActive }) => isActive ? "text-blue-600" : "text-black"}>
           Projects
         </NavLink>
+        <NavLink to='/certificates' className={({ isActive }) => isActive ? "text-blue-600" : "text-black"}>
+          Certificates
+        </NavLink>
+        <a href={resumeUrl} target='_blank' rel='noreferrer' className='text-black hover:text-blue-600'>
+          Download Resume
+        </a>
       </nav>
     </header>
   );
