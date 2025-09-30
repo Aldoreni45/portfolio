@@ -202,7 +202,7 @@ export const socialLinks = [
     {
         name: 'LeetCode',
         iconUrl: leetcode,
-        link: 'https://www.linkedin.com/in/aldo-reni/',  
+        link: 'https://leetcode.com/u/Aldoreni45/',  
     }
 
 ];

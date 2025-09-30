@@ -10,9 +10,9 @@ const Certificates = () => (
     <h1 className='head-text'>Certificates & Achievements</h1>
     <p className='mt-3 text-slate-600'>A selection of my certifications and notable achievements.</p>
 
-    <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8'>
+    <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mt-8'>
       {certificates.map((c, idx) => (
-        <article key={idx} className='neo-brutalism-white p-4 rounded flex flex-col gap-3'>
+       <article key={idx} className='neo-brutalism-white p-3 sm:p-4 rounded flex flex-col gap-3'>
           {c.imageUrl && (
             <img src={c.imageUrl} alt={c.title} className='w-full h-40 object-contain bg-white rounded' />
           )}
