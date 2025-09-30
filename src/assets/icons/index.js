@@ -29,6 +29,7 @@ import pinecone from './pinecone.png'
 import powerbi from './powerrbi.jpeg'
 import scikitlearn from './scikit-learn.svg'
 import sql from './sql.jpeg'
+import leetcode from './leetcode.png'
 
 export {
     git,
@@ -61,5 +62,6 @@ export {
     powerbi,
     scikitlearn,
     dagshub,
-    sql
+    sql,
+    leetcode
 }

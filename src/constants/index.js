@@ -26,7 +26,8 @@ import {
     powerbi,
     scikitlearn,
     sql,
-    dagshub
+    dagshub,
+    leetcode
 } from "../assets/icons";
 
 // Certificates images
@@ -197,7 +198,13 @@ export const socialLinks = [
         name: 'LinkedIn',
         iconUrl: linkedin,
         link: 'https://www.linkedin.com/in/aldo-reni',
+    },
+    {
+        name: 'LeetCode',
+        iconUrl: leetcode,
+        link: 'https://www.linkedin.com/in/aldo-reni/',  
     }
+
 ];
 
 
